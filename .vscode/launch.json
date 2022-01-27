@@ -5,12 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch jj",
+            "request": "launch",
+            "mainClass": "jj",
+            "projectName": "python vs code codes_c85f8f2a"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}","externalConsole": true,
+            "program": "${file}",
+            "externalConsole": true,
             "console": "integratedTerminal"
-            
         },
         {
             "name": "g++.exe - Build and debug active file",
